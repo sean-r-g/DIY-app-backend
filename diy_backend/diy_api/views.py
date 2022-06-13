@@ -8,6 +8,6 @@ class GuideList(generics.ListCreateAPIView):
     queryset = Guide.objects.all().order_by('id')
     serializer_class = GuideSerializer
 
-class GuideDetail(generics.RetrieveUpdateDestoryAPIViews):
+class GuideDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Guide.objects.all().order_by('id')
     serializer_class = GuideSerializer
