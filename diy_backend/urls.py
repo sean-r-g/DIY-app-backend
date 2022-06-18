@@ -17,6 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 
+# from rest_framework_simplejwt.views import (
+#     MyTokenObtainPairView,
+#     TokenRefreshView,
+# )
+
 urlpatterns = [
     path('', include('diy_api.urls')),
     path('admin/', admin.site.urls),
