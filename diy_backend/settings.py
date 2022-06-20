@@ -38,6 +38,7 @@ ALLOWED_HOSTS = ['localhost', 'diybackend.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    # 'django-jsonfield-backport',
     'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
