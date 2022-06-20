@@ -13,8 +13,8 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 
 # added these
-from django.http import JsonResponse
-from django.contrib.auth.models import User
+# from django.http import JsonResponse
+# from django.contrib.auth.models import User
 
 
 # Create your views here.
